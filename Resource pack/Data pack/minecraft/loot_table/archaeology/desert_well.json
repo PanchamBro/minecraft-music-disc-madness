@@ -1,0 +1,123 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arms_up_pottery_sherd",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brewer_pottery_sherd",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "effects": [
+                {
+                  "type": "minecraft:night_vision",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 10.0,
+                    "min": 7.0
+                  }
+                },
+                {
+                  "type": "minecraft:jump_boost",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 10.0,
+                    "min": 7.0
+                  }
+                },
+                {
+                  "type": "minecraft:weakness",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 8.0,
+                    "min": 6.0
+                  }
+                },
+                {
+                  "type": "minecraft:blindness",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 7.0,
+                    "min": 5.0
+                  }
+                },
+                {
+                  "type": "minecraft:poison",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 20.0,
+                    "min": 10.0
+                  }
+                },
+                {
+                  "type": "minecraft:saturation",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 10.0,
+                    "min": 7.0
+                  }
+                }
+              ],
+              "function": "minecraft:set_stew_effect"
+            }
+          ],
+          "name": "minecraft:suspicious_stew"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 6,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:crescent_dunes"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 6,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:a_familiar_room"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:archaeology/desert_well"
+}

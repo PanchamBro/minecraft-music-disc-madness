@@ -1,0 +1,10 @@
+{
+    "comparator_output": 14,
+    "description": {
+        "translate": "ambient_song.minecraft.haunt_muskie"
+    },
+    "length_in_seconds": 362.0,
+    "sound_event": {
+        "sound_id": "minecraft:music_disc.haunt_muskie"
+    }
+}
