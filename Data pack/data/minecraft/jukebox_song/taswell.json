@@ -1,0 +1,10 @@
+{
+    "comparator_output": 8,
+    "description": {
+        "translate": "ambient_song.minecraft.taswell"
+    },
+    "length_in_seconds": 515.0,
+    "sound_event": {
+        "sound_id": "minecraft:music_disc.taswell"
+    }
+}

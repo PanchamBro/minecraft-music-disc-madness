@@ -1,0 +1,181 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_11",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 4
+      }
+    },
+    "title": {
+      "translate": "advancements.adventure.caves_and_cliffs.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.caves_and_cliffs.description"
+    },
+    "frame": "goal"
+  },
+  "parent": "minecraft:adventure/play_jukebox_in_meadows",
+  "criteria": {
+    "music_disc_an_ordinary_day": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:an_ordinary_day"
+              },
+              "minecraft:custom_model_data": 4
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_ancestry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:ancestry"
+              },
+              "minecraft:custom_model_data": 4
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_comforting_memories": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:comforting_memories"
+              },
+              "minecraft:custom_model_data": 4
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_floating_dream": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:floating_dream"
+              },
+              "minecraft:custom_model_data": 4
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_infinite_amethyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:infinite_amethyst"
+              },
+              "minecraft:custom_model_data": 4
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_left_to_bloom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:left_to_bloom"
+              },
+              "minecraft:custom_model_data": 4
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_one_more_day": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:one_more_day"
+              },
+              "minecraft:custom_model_data": 4
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_stand_tall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:stand_tall"
+              },
+              "minecraft:custom_model_data": 4
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_wending": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:wending"
+              },
+              "minecraft:custom_model_data": 4
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_otherside": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_otherside",
+            "predicates": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:otherside"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}

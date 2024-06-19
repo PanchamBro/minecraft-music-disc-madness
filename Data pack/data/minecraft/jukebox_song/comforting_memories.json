@@ -1,0 +1,10 @@
+{
+    "comparator_output": 4,
+    "description": {
+        "translate": "ambient_song.minecraft.comforting_memories"
+    },
+    "length_in_seconds": 275.0,
+    "sound_event": {
+        "sound_id": "minecraft:music_disc.comforting_memories"
+    }
+}

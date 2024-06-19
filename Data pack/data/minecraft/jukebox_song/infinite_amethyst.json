@@ -1,0 +1,10 @@
+{
+    "comparator_output": 6,
+    "description": {
+        "translate": "ambient_song.minecraft.infinite_amethyst"
+    },
+    "length_in_seconds": 272.0,
+    "sound_event": {
+        "sound_id": "minecraft:music_disc.infinite_amethyst"
+    }
+}

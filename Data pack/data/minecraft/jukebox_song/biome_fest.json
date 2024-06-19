@@ -1,0 +1,10 @@
+{
+    "comparator_output": 14,
+    "description": {
+        "translate": "ambient_song.minecraft.biome_fest"
+    },
+    "length_in_seconds": 383.0,
+    "sound_event": {
+        "sound_id": "minecraft:music_disc.biome_fest"
+    }
+}

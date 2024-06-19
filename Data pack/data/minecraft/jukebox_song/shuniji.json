@@ -1,0 +1,10 @@
+{
+    "comparator_output": 8,
+    "description": {
+        "translate": "ambient_song.minecraft.shuniji"
+    },
+    "length_in_seconds": 244.0,
+    "sound_event": {
+        "sound_id": "minecraft:music_disc.shuniji"
+    }
+}

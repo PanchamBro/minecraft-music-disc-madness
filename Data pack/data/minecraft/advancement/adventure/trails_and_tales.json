@@ -1,0 +1,101 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_11",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 6
+      }
+    },
+    "title": {
+      "translate": "advancements.adventure.trails_and_tales.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.trails_and_tales.description"
+    },
+    "frame": "goal"
+  },
+  "parent": "minecraft:adventure/play_jukebox_in_meadows",
+  "criteria": {
+    "music_disc_a_familiar_room": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:a_familiar_room"
+              },
+              "minecraft:custom_model_data": 6
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_bromeliad": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:bromeliad"
+              },
+              "minecraft:custom_model_data": 6
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_crescent_dunes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:crescent_dunes"
+              },
+              "minecraft:custom_model_data": 6
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_echo_in_the_wind": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:echo_in_the_wind"
+              },
+              "minecraft:custom_model_data": 6
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_relic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_relic",
+            "predicates": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:relic"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}

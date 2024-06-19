@@ -1,0 +1,244 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_11",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 1
+      }
+    },
+    "title": {
+      "translate": "advancements.adventure.volume_alpha.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.volume_alpha.description"
+    },
+    "frame": "goal"
+  },
+  "parent": "minecraft:adventure/play_jukebox_in_meadows",
+  "criteria": {
+    "music_disc_minecraft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:minecraft"
+              },
+              "minecraft:custom_model_data": 1
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_clark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:clark"
+              },
+              "minecraft:custom_model_data": 1
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_sweden": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:sweden"
+              },
+              "minecraft:custom_model_data": 1
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_subwoofer_lullaby": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:subwoofer_lullaby"
+              },
+              "minecraft:custom_model_data": 1
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_living_mice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:living_mice"
+              },
+              "minecraft:custom_model_data": 1
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_haggstrom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:haggstrom"
+              },
+              "minecraft:custom_model_data": 1
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_danny": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:danny"
+              },
+              "minecraft:custom_model_data": 1
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:key"
+              },
+              "minecraft:custom_model_data": 1
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_oxygene": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:oxygene"
+              },
+              "minecraft:custom_model_data": 1
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_dry_hands": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:dry_hands"
+              },
+              "minecraft:custom_model_data": 1
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_wet_hands": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:wet_hands"
+              },
+              "minecraft:custom_model_data": 1
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_mice_on_venus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:mice_on_venus"
+              },
+              "minecraft:custom_model_data": 1
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_13",
+            "predicates": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:13"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_cat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_cat",
+            "predicates": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:cat"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}

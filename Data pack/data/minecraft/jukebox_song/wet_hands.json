@@ -1,0 +1,10 @@
+{
+    "comparator_output": 11,
+    "description": {
+        "translate": "ambient_song.minecraft.wet_hands"
+    },
+    "length_in_seconds": 90.0,
+    "sound_event": {
+        "sound_id": "minecraft:music_disc.wet_hands"
+    }
+}

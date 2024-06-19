@@ -1,0 +1,10 @@
+{
+    "comparator_output": 1,
+    "description": {
+        "translate": "ambient_song.minecraft.featherfall"
+    },
+    "length_in_seconds": 344.0,
+    "sound_event": {
+        "sound_id": "minecraft:music_disc.featherfall"
+    }
+}

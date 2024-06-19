@@ -1,0 +1,10 @@
+{
+    "comparator_output": 10,
+    "description": {
+        "translate": "ambient_song.minecraft.mice_on_venus"
+    },
+    "length_in_seconds": 281.0,
+    "sound_event": {
+        "sound_id": "minecraft:music_disc.mice_on_venus"
+    }
+}

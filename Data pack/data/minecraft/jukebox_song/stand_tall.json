@@ -1,0 +1,10 @@
+{
+    "comparator_output": 7,
+    "description": {
+        "translate": "ambient_song.minecraft.stand_tall"
+    },
+    "length_in_seconds": 308.0,
+    "sound_event": {
+        "sound_id": "minecraft:music_disc.stand_tall"
+    }
+}

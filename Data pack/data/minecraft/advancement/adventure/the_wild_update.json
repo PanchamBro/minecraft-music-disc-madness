@@ -1,0 +1,85 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_11",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 5
+      }
+    },
+    "title": {
+      "translate": "advancements.adventure.the_wild_update.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.the_wild_update.description"
+    },
+    "frame": "goal"
+  },
+  "parent": "minecraft:adventure/play_jukebox_in_meadows",
+  "criteria": {
+    "music_disc_aerie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:aerie"
+              },
+              "minecraft:custom_model_data": 5
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_firebugs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:firebugs"
+              },
+              "minecraft:custom_model_data": 5
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_labyrinthine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:labyrinthine"
+              },
+              "minecraft:custom_model_data": 5
+            }
+          }
+        ]
+      }
+    },
+    "music_disc_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_5",
+            "predicates": {
+              "minecraft:jukebox_playable": {
+                "song": "minecraft:5"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}
