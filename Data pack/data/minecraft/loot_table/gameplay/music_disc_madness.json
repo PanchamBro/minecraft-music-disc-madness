@@ -1,0 +1,354 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 1,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:minecraft"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 1,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:clark"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 1,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:sweden"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 1,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:subwoofer_lullaby"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 1,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:living_mice"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 1,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:haggstrom"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 1,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:danny"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 1,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:key"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 1,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:oxygene"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 1,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:dry_hands"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 1,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:wet_hands"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 1,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:mice_on_venus"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 4,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:infinite_amethyst"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 4,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:left_to_bloom"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 4,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:one_more_day"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 4,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:stand_tall"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 4,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:wending"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 5,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:aerie"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 5,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:firebugs"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 5,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:labyrinthine"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 4,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:an_ordinary_day"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 4,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:comforting_memories"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 4,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:floating_dream"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
